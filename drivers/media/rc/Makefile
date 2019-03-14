@@ -37,3 +37,7 @@ obj-$(CONFIG_IR_TTUSBIR) += ttusbir.o
 obj-$(CONFIG_RC_ST) += st_rc.o
 obj-$(CONFIG_IR_SUNXI) += sunxi-cir.o
 obj-$(CONFIG_IR_IMG) += img-ir/
+
+# daisy/sakura
+obj-$(CONFIG_MACH_XIAOMI_SAKURA) += peelir_sakura.o
+obj-$(CONFIG_MACH_XIAOMI_DAISY) += peelir_sakura.o
