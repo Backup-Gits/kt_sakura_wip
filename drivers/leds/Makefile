@@ -86,3 +86,7 @@ obj-$(CONFIG_LEDS_DAC124S085)		+= leds-dac124s085.o
 
 # LED Triggers
 obj-$(CONFIG_LEDS_TRIGGERS)		+= trigger/
+
+# sakura/daisy
+obj-$(CONFIG_MACH_XIAOMI_SAKURA)		+= leds-aw2013_sakura.o leds-aw2023_sakura.o
+obj-$(CONFIG_MACH_XIAOMI_DAISY)			+= leds-aw2023_sakura.o leds-aw2013_sakura.o
