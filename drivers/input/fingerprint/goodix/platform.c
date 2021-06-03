@@ -166,6 +166,9 @@ int gf_power_off(struct gf_dev *gf_dev)
 
 static int hw_reset(struct  gf_dev *gf_dev)
 {
+#ifndef ENABLE_PINCTRL
+	int rc = 0;
+#endif
 	int irq_gpio;
 	struct device *dev = &gf_dev->spi->dev;
 
