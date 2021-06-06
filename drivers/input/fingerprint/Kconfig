@@ -6,3 +6,7 @@ config INPUT_FINGERPRINT
 # Tissot
 source "drivers/input/fingerprint/goodix_tissot/Kconfig"
 source "drivers/input/fingerprint/fpc_tissot/Kconfig"
+
+# daisy/sakura
+source "drivers/input/fingerprint/goodix_sakura/Kconfig"
+source "drivers/input/fingerprint/fpc_sakura/Kconfig"
