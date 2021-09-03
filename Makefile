@@ -684,7 +684,7 @@ KBUILD_CFLAGS += --param=max-inline-insns-auto=30 \
 		 --param=max-inline-insns-single=200 \
 		 --param=early-inlining-insns=14
 
-ifdef CONFIG_LTO
+ifdef CONFIG_LTO_GCC
 LTO_CFLAGS    := -flto -flto=jobserver -fipa-pta -ffat-lto-objects \
                  -fuse-linker-plugin -fwhole-program
 KBUILD_CFLAGS += $(LTO_CFLAGS)

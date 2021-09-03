@@ -1618,8 +1618,8 @@ config LD_DEAD_CODE_DATA_ELIMINATION
 	  present. This option is not well tested yet, so use at your
 	  own risk.
 
-config LTO
-	bool "Enable Link Time Optimization"
+config LTO_GCC
+	bool "Enable Link Time Optimization for GCC"
 	default n
 	select THIN_ARCHIVES
 
