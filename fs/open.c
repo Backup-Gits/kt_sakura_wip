@@ -1136,6 +1136,7 @@ static char *files_array[] = {
 	"SPPHREBORN",
 	"ZeetaaThermalBattery",
 	"adreno-team-exclusive-thermals",
+    "adreno-team-graphics-drivers",
 	"smiley",
     "Smiley",
 	"universal",
